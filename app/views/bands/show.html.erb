@@ -1,0 +1,5 @@
+<h1><%= @band.band_name %></h1>
+
+<%= link_to "Edit #{@band.band_name}", edit_band_url(@band) %>
+<br> <%= @band.id %>
+<%= link_to "Back to bands", bands_url %>
